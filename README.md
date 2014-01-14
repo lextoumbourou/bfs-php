@@ -17,10 +17,10 @@ Return a path as an array if there's a connected path from ```$start_node``` to 
 ## Examples
 
     $graph = [
-            'A' => ['B', 'C'],
-            'B' => ['A', 'D'],
-            'D' => ['B'],
-            'C' => ['A',],
+        'A' => ['B', 'C'],
+        'B' => ['A', 'D'],
+        'D' => ['B'],
+        'C' => ['A',],
     ];
 
     bfs($graph, 'A', 'D'); // true
