@@ -7,9 +7,9 @@
  * Matches the example on Wikipedia:
  * http://en.wikipedia.org/wiki/Breadth-first_search
  *
- * 1. Start with a node, and enqueue it and mark it visited
+ * 1. Start with a node, enqueue it and mark it visited
  * 2. Do this while there are nodes on the queue:
- *     a. dequeue next node from queue
+ *     a. dequeue next node
  *     b. if it's what we want, return!
  *     c. search neighbours, if they haven't been visited,
  *        add them to the queue and mark them visited
