@@ -1,6 +1,6 @@
-# Breadth-First Search implementation in PHP
+# bfs-php
 
-A very simple [breadth-first search](http://en.wikipedia.org/wiki/Breadth-first_search) implementation. Nothing fancy: does what it says on the tin :)
+A very simple [breadth-first search](http://en.wikipedia.org/wiki/Breadth-first_search) implementation written in PHP. Nothing fancy: does what it says on the tin :)
 
 Requires PHP 5.4+
 
