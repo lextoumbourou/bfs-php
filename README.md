@@ -16,16 +16,16 @@ Return a path as an array if there's a connected path from ```$start_node``` to 
 
 ## Examples
 
-    $Graph = [
+    $graph = [
             'A' => ['B', 'C'],
             'B' => ['A', 'D'],
             'D' => ['B'],
             'C' => ['A',],
     ];
 
-    bfs($Graph, 'A', 'D'); // true
-    bfs($Graph, 'A', 'G'); // false
-    print_r(bfs_path($Graph, 'A', 'D')); // ['A', 'B', 'D']
+    bfs($graph, 'A', 'D'); // true
+    bfs($graph, 'A', 'G'); // false
+    print_r(bfs_path($graph, 'A', 'D')); // ['A', 'B', 'D']
 
 
 ## Tests
