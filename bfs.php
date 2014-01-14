@@ -42,10 +42,9 @@ function bfs($graph, $start, $end) {
 }
 
 /*
- * Same as before except instead of returning a bool, it returns a path.
+ * Same as bfs() except instead of returning a bool, it returns a path.
  *
- * Implemented by enqueue a path, instead of a node,
- *  each time we visit a neighbour.
+ * Implemented by enqueuing a path, instead of a node, for each neighbour.
  *
  * @returns array or false
  */
