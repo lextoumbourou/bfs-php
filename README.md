@@ -16,6 +16,10 @@ Return a path as an array if there's a connected path from ```$start_node``` to 
 
 ## Examples
 
+    <?php
+
+    include 'bfs.php'
+
     $graph = [
         'A' => ['B', 'C'],
         'B' => ['A', 'D'],
