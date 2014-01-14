@@ -2,7 +2,7 @@
 
 A very simple [breadth-first search](http://en.wikipedia.org/wiki/Breadth-first_search) implementation. Nothing fancy: does what it says on the tin :)
 
-## Function
+## Docs
 
     bool bfs(array $graph, mixed $start_node, mixed $end_node)
 
